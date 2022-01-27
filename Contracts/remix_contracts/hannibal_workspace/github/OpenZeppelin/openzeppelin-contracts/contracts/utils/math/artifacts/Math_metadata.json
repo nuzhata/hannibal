@@ -1,0 +1,46 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"details": "Standard math utilities missing in the Solidity language.",
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/Math.sol": "Math"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"github/OpenZeppelin/openzeppelin-contracts/contracts/utils/math/Math.sol": {
+			"keccak256": "0x3590cfea926e197a71122344a51abb72c9f977edb0cc429d3eb08b5d64862be9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://a4abcca6c7496405dd35602b77b79794ff0c9865996cb5ef01a7caed68820aaa",
+				"dweb:/ipfs/QmSsV3ANekXUUvqo8M1SKXNhfYQoHuHM5GgwjRG6gAwdMu"
+			]
+		}
+	},
+	"version": 1
+}

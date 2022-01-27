@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/utils/ContractGuard.sol": "ContractGuard"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/utils/ContractGuard.sol": {
+			"keccak256": "0x0d34b67208fa6e104fe48a204db2f3e090bbb1655650af0c38bca1c30a9ea724",
+			"urls": [
+				"bzz-raw://620c528e83be0134e4ce4a771eabcf3b4fde780c2d1615ecefa7ee180f3d6e60",
+				"dweb:/ipfs/QmPaRb3RYLbcTVyky1Mdft8CctGyfnCNLfJAZ9LWShPErh"
+			]
+		}
+	},
+	"version": 1
+}

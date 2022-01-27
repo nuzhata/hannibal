@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "claimRewards",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "unclaimedTreasuryFund",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "_pending",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IShare.sol": "IShare"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IShare.sol": {
+			"keccak256": "0xc5f03e8735ebaa12825bcaab7b2d6a0273c5ba0cff21b310f223cbae426d1447",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://879496cfe5b6f21ba680a09affd10144657ff97646ae0fd0337d1adcc5c3f459",
+				"dweb:/ipfs/QmZvVxTrJQVUcj7pjW4c2hqKAQ36vJuuehWm8ZFLx23Sjh"
+			]
+		}
+	},
+	"version": 1
+}

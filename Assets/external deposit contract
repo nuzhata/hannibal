@@ -1,0 +1,148 @@
+        ENUM NAME           |   CONTRACT NAME               |   REF. FILE     *             |   earnTokenName   |   depositTokenName    |   Tomb Address ( TEST )                       |   Han Address ( TEST )
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+TombFtmRewardPool           :   TombFtmRewardPool           :   TombGenesisRewardPool.sol   :       HAN         |   WFTM                |   0xFb392431c0dd8d7f21315aA63bA60C6Bd10A0fcd  :   0x4F9163513248880143a2E9e9CcB4d7fB994861D5
+TombBooRewardPool           :   TombBooGenesisRewardPool    :   TombGenesisRewardPool.sol   :       HAN         |   BOO                 |   0xFb392431c0dd8d7f21315aA63bA60C6Bd10A0fcd  :   0x4F9163513248880143a2E9e9CcB4d7fB994861D5
+TombShibaRewardPool         :   TombShibaGenesisRewardPool  :   TombGenesisRewardPool.sol   :       HAN         |   SHIBA               |   0xFb392431c0dd8d7f21315aA63bA60C6Bd10A0fcd  :   0x4F9163513248880143a2E9e9CcB4d7fB994861D5
+TombZooRewardPool           :   TombZooGenesisRewardPool    :   TombGenesisRewardPool.sol   :       HAN         |   ZOO                 |   0xFb392431c0dd8d7f21315aA63bA60C6Bd10A0fcd  :   0x4F9163513248880143a2E9e9CcB4d7fB994861D5
+
+TombFtmLPTombRewardPool     :   TombFtmLpTombRewardPool     :   TombRewardPool.sol          :       HAN         |   HAN-FTM-LP          |   0x96Ddab71d6074f09267A653FE9490ea16D20e20f  :   0x86b382181211F769A6CCe51e39665422dA60440c
+TombFtmLPTombRewardPoolOld  :   TombFtmLpTombRewardPoolOld  :   TombRewardPool.sol          :       HAN         |   HAN-FTM-LP          |   0x52618Fa2364ae23f29B88c4De5bc9d28BCc34dE5  :   0x86b382181211F769A6CCe51e39665422dA60440c
+
+TombFtmLPTShareRewardPool   :   TombFtmLPTShareRewardPool   :   TShareRewardPool.sol        :       HaSHARE     |   HAN-FTM-LP          |   0xE9A9242b5aBd050ec714EDfF53ff08dfA066aaf0  :   0xc8B638986189Ab34fEA9cb7Ed4018e5Ea20BCFDf
+TshareFtmLPTShareRewardPool :   TshareFtmLPTShareRewardPool :   TShareRewardPool.sol        :       HaSHARE     |   HAN-FTM-LP          |   0xE9A9242b5aBd050ec714EDfF53ff08dfA066aaf0  :   0xc8B638986189Ab34fEA9cb7Ed4018e5Ea20BCFDf
+
+Tomb Finance: Dev Wallet    :   0x32439f5a7dc35590e83aac0a80762de27ab76046
+Tomb Finance: DAO Wallet    :   0x0fA5a3B6f8e26a7C2C67bd205fFcfA9f89B0e8d1
+
+Basis Cash: BAC Token     * :   0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a
+    Sponsored:   Wakanda Inu - The NFT Marketplace Of The Future & DAO Coming Soon.  Learn More:
+    https://mct.etherscan.com/www/d/cl.php?ebannerid=2446&zoneid=6&sig=9b430e3d714383cff97c1f5c5cff505869098b0cdf30b00570c5bc18efba12f0&oadest=https%3A%2F%2Fbit.ly%2F3GvymE9
+
+Dai Stablecoin            * :   0x6b175474e89094c44da98b954eedeac495271d0f
+    https://makerdao.com/
+
+*                           :   Basis Cash has two farmable tokens - Basis Cash, a stable coin that seeks to be valued at $1 and Basis Share, an ownership token which receives inflationary rewards from Basis Cash, deriving value from the increased adoption of Basis Cash.
+
+Uniswap V2: Factory Contract:   0x5C69bEe701ef814a2B6a3EDD4B1652CB9cc5aA6f
+Shiba Fantom: Shiba Token   :   0x9ba3e4f84a34df4e08c112e1a0ff148b81655615
+UniswapV2Pair               :   0x2a651563c9d3af67ae0388a5c8f89b867038089e
+    SpookySwap: TOMB-WFTM LP
+    
+UniswapV2Pair               :   0x4733bc45ef91cf7ccecaeedb794727075fb209f2
+    SpookySwap: TSHARE-WFTM LP
+
+WrappedFtm                  :   0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+    Fantom Finance: Wrapped Fantom Token
+    
+Token Holder (SpookySwap: Deployer) :   0x95478c4f7d22d1048f46100001c2c69d2ba57380
+SpookyToken                         :   0x6e0aa9718c56ef5d19ccf57955284c7cd95737be
+
+
+https://www.unixtimestamp.com/index.php
+_poolStartTime:1642105800
+_PAIR:0xFb392431c0dd8d7f21315aA63bA60C6Bd10A0fcd
+_period:24
+
+BondOracle          ->  Oracle.sol
+SeigniorageOracle   ->  Oracle.sol
+SpookyRouter        ->  IUniswapV2Router01.sol (UniswapV2Router02)
+Zapper              ->  Zap
+TaxOffice           ->  TaxOfficeV2
+
+BondOracle                  :   0xE4EFD87ad34360932E5325D77A0a6e39147DEbFa  (None fantom chain)
+-----Decoded View---------------
+Arg [0] : _factory (address): 0x5c69bee701ef814a2b6a3edd4b1652cb9cc5aa6f
+Arg [1] : _tokenA (address): 0x3449fc1cd036255ba1eb19d65ff4ba2b8903a69a
+Arg [2] : _tokenB (address): 0x6b175474e89094c44da98b954eedeac495271d0f
+Arg [3] : _period (uint256): 3600
+Arg [4] : _startTime (uint256): 1610323200
+
+SeigniorageOracle           :   0x55530fA1B042582D5FA3C313a7e02d21Af6B82f4
+    Tomb Finance: Oracle    :   https://tomb.finance/
+-----Decoded View---------------
+Arg [0] : _pair (address): 0x2a651563c9d3af67ae0388a5c8f89b867038089e
+Arg [1] : _period (uint256): 21600
+Arg [2] : _startTime (uint256): 1622637000
+
+Tomb                        :   0x6c021ae822bea943b2e66552bde1d2696a53fbb7
+    Tomb Finance: TOMB Token        :   https://tomb.finance/
+Arg [0] : _taxRate (uint256): 0
+Arg [1] : _taxCollectorAddress (address): 0x0fa5a3b6f8e26a7c2c67bd205ffcfa9f89b0e8d1
+
+TShare                      :   0x4cdF39285D7Ca8eB3f090fDA0C069ba5F4145B37
+     Tomb Finance: TSHARE Token     :   https://tomb.finance/
+-----Decoded View---------------
+Arg [0] : _startTime (uint256): 1622637000
+Arg [1] : _communityFund (address): 0x0fa5a3b6f8e26a7c2c67bd205ffcfa9f89b0e8d1
+Arg [2] : _devFund (address): 0x32439f5a7dc35590e83aac0a80762de27ab76046
+
+tBond                       :   0x24248CD1747348bDC971a5395f4b3cd7feE94ea0
+
+Treasury                    :   0xF50c6dAAAEC271B56FCddFBC38F0b56cA45E6f0d
+     Tomb Finance: Treasury     :   https://tomb.finance/
+    // exclusions from total supply
+    address[] public excludedFromTotalSupply = [
+        address(0x9A896d3c54D7e45B558BD5fFf26bF1E8C031F93b), // TombGenesisPool
+        address(0xa7b9123f4b15fE0fF01F469ff5Eab2b41296dC0E), // new TombRewardPool
+        address(0xA7B16703470055881e7EE093e9b0bF537f29CD4d) // old TombRewardPool
+    ];
+
+Masonry                     :   0x8764DE60236C5843D9faEB1B638fbCE962773B67
+    Tomb Finance: Masonry   :   https://tomb.finance/
+
+TombFtmRewardPool           :   0x9A896d3c54D7e45B558BD5fFf26bF1E8C031F93b
+TombBooGenesisRewardPool    :   0x9A896d3c54D7e45B558BD5fFf26bF1E8C031F93b
+TombZooGenesisRewardPool    :   0x9A896d3c54D7e45B558BD5fFf26bF1E8C031F93b
+TombShibaGenesisRewardPool  :   0x9A896d3c54D7e45B558BD5fFf26bF1E8C031F93b
+    Tomb Finance: Genesis Rewards Pool  :   https://tomb.finance/
+-----Decoded View---------------
+Arg [0] : _tomb (address): 0x6c021ae822bea943b2e66552bde1d2696a53fbb7
+Arg [1] : _shiba (address): 0x9ba3e4f84a34df4e08c112e1a0ff148b81655615
+Arg [2] : _poolStartTime (uint256): 1622637000
+
+TombFtmLpTombRewardPoolOld  :   0xA7B16703470055881e7EE093e9b0bF537f29CD4d
+-----Decoded View---------------
+Arg [0] : _tomb (address): 0x6c021ae822bea943b2e66552bde1d2696a53fbb7
+Arg [1] : _poolStartTime (uint256): 1622723400
+
+TombFtmLpTombRewardPool     :   0xa7b9123f4b15fE0fF01F469ff5Eab2b41296dC0E
+    Tomb Finance: Tomb Rewards Pool     :   https://tomb.finance/
+-----Decoded View---------------
+Arg [0] : _tomb (address): 0x6c021ae822bea943b2e66552bde1d2696a53fbb7
+Arg [1] : _poolStartTime (uint256): 1622723400
+
+TombFtmLPTShareRewardPool   :   0xcc0a87F7e7c693042a9Cc703661F5060c80ACb43
+TshareFtmLPTShareRewardPool :   0xcc0a87F7e7c693042a9Cc703661F5060c80ACb43
+    Tomb Finance: TSHARE Rewards Pool   :  https://tomb.finance/
+-----Decoded View---------------
+Arg [0] : _tshare (address): 0x4cdf39285d7ca8eb3f090fda0c069ba5f4145b37
+Arg [1] : _poolStartTime (uint256): 1623069000
+
+zapper                      :   0x8bb1fe7a50082623b372d857b4d07911c786a3e9
+-----Decoded View---------------
+Arg [0] : _WNATIVE (address): 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+
+TaxOffice                   :   0xcaf6C0FB8Bcb737C2D5D7e5Db615147a26091De1
+    address public tomb = address(0x6c021Ae822BEa943b2E66552bDe1D2696a53fbB7);
+    address public wftm = address(0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83);
+    address public uniRouter = address(0xF491e7B69E4244ad4002BC14e878a34207E38c29);
+
+UniswapV2Router02   :   0xf491e7b69e4244ad4002bc14e878a34207e38c29
+    SpookySwap: Router (SpookyRouter)
+    -----Decoded View---------------
+    Arg [0] : _factory (address): 0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3
+    Arg [1] : _WETH (address): 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+
+UniswapV2Factory    :   0x152ee697f2e276fa89e96742e9bb9ab1f2e61be3
+    SpookySwap: Factory
+    -----Decoded View---------------
+    Arg [0] : _feeToSetter (address): 0x95478c4f7d22d1048f46100001c2c69d2ba57380
+
+TShareSwapper               :   0x2942168Fa8A39d070cB1173a54479F7C6A94604d
+Arg [0] : _tomb (address): 0x6c021ae822bea943b2e66552bde1d2696a53fbb7
+Arg [1] : _tbond (address): 0x24248cd1747348bdc971a5395f4b3cd7fee94ea0
+Arg [2] : _tshare (address): 0x4cdf39285d7ca8eb3f090fda0c069ba5f4145b37
+Arg [3] : _wftmAddress (address): 0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83
+Arg [4] : _tombSpookyLpPair (address): 0x2a651563c9d3af67ae0388a5c8f89b867038089e
+Arg [5] : _tshareSpookyLpPair (address): 0x4733bc45ef91cf7ccecaeedb794727075fb209f2
+Arg [6] : _daoAddress (address): 0x0fa5a3b6f8e26a7c2c67bd205ffcfa9f89b0e8d1

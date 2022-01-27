@@ -1,0 +1,653 @@
+status	true Transaction mined and execution succeed
+transaction hash	0x940aeaee9d0fc44a55c83e10b02321354dfdc633195e4ccfe8c327ade10de247
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Han.(constructor)
+gas	5142572 gas
+transaction cost	5142572 gas 
+hash	0x940aeaee9d0fc44a55c83e10b02321354dfdc633195e4ccfe8c327ade10de247
+input	0x608...86cbf
+decoded input	{
+	"uint256 _taxRate": "1",
+	"address _taxCollectorAddress": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"2": "1000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"value": "1000000000000000000"
+		}
+	}
+]
+val	0 wei
+ 
+>
+
+FTM:
+creation of Han pending...
+ 
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Han.(constructor)
+value: 0 wei
+data: 0x608...86cbf
+logs: 3
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x26e905024d61eed6e3083a14bee6a8dd712bba2bd288c994c68f5d4e309af05e
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Han.(constructor)
+gas	5142572 gas
+transaction cost	5142572 gas 
+hash	0x26e905024d61eed6e3083a14bee6a8dd712bba2bd288c994c68f5d4e309af05e
+input	0x608...86cbf
+decoded input	{
+	"uint256 _taxRate": "1",
+	"address _taxCollectorAddress": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"2": "1000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"value": "1000000000000000000"
+		}
+	}
+]
+val	0 wei
+
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HaBond.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xd05fe6f09d9798cc6a1f4c836feb1d54d4df7770dfc12d04e6ae0652b007876d
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HaBond.(constructor)
+gas	2080548 gas
+transaction cost	2080548 gas 
+hash	0xd05fe6f09d9798cc6a1f4c836feb1d54d4df7770dfc12d04e6ae0652b007876d
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x437Bd04Ba26Bb0c4a985F365Ab98d768f2549deC",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0x437Bd04Ba26Bb0c4a985F365Ab98d768f2549deC",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HaBond.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xb942cb1604fdec0796d5c2f4311f980a4477f517ff59e3ff3052544debb129e8
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HaBond.(constructor)
+gas	2080548 gas
+transaction cost	2080548 gas 
+hash	0xb942cb1604fdec0796d5c2f4311f980a4477f517ff59e3ff3052544debb129e8
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x62066339b22C6026B00E4B81C881B52CC9340a49",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0x62066339b22C6026B00E4B81C881B52CC9340a49",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HaShare.(constructor)
+value: 0 wei
+data: 0x608...86cbf
+logs: 3
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xa29796379881130a9866be0713ef140499a363cf21bb238760146b03f9ce6562
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HaShare.(constructor)
+gas	2972563 gas
+transaction cost	2972563 gas 
+hash	0xa29796379881130a9866be0713ef140499a363cf21bb238760146b03f9ce6562
+input	0x608...86cbf
+decoded input	{
+	"uint256 _startTime": "0",
+	"address _communityFund": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+	"address _devFund": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xB04479D698780502F726ca663847D77910D898Ec",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xB04479D698780502F726ca663847D77910D898Ec",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xB04479D698780502F726ca663847D77910D898Ec",
+		"topic": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef",
+		"event": "Transfer",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"2": "1000000000000000000",
+			"from": "0x0000000000000000000000000000000000000000",
+			"to": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"value": "1000000000000000000"
+		}
+	}
+]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Masonry.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xfc4e50f7f2a13041555f3 
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Masonry.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Masonry.(constructor)
+gas	1715630 gas
+transaction cost	1715630 gas 
+hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>2c82092b5887d6ca3715626bc27471290a77d42ccf3
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Masonry.(constructor)
+gas	3268503 gas
+transaction cost	3268503 gas 
+hash	0xfc4e50f7f2a13041555f32c82092b5887d6ca3715626bc27471290a77d42ccf3
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>
+
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HanRewardPool.(constructor)
+value: 0 wei
+data: 0x608...08bc8
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x9f778db1d8d29d7a9b34216c3e5b1784e3b67d541bd9a1bc3a84975a7a693a27
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HanRewardPool.(constructor)
+gas	2884948 gas
+transaction cost	2884948 gas 
+hash	0x9f778db1d8d29d7a9b34216c3e5b1784e3b67d541bd9a1bc3a84975a7a693a27
+input	0x608...08bc8
+decoded input	{
+	"address _han": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+	"uint256 _poolStartTime": "1642105800"
+}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HanGenesisRewardPool.(constructor)
+value: 0 wei
+data: 0x608...08bc8
+logs: 0
+hash: 
+status	true Transaction mined and executio 
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Masonry.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Masonry.(constructor)
+gas	1715630 gas
+transaction cost	1715630 gas 
+hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>n succeed[block: txIndex:]
+from: 0x8E7...86cBF
+to: TShareSwapper.(constructor)
+value: 0 wei
+data: 0x608...91de1
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	TShareSwapper.(constructor)
+gas	2313690 gas
+transaction cost	2313690 gas 
+hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+input	0x608...91de1
+decoded input	{
+	"address _han": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+	"address _hbond": "0xa4b33ec7bE6A82099Ac36a726bAf85A0c2C485C1",
+	"address _hashare": "0xB04479D698780502F726ca663847D77910D898Ec",
+	"address _wftmAddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+	"address _hanSpookyLpPair": "0xF491e7B69E4244ad4002BC14e878a34207E38c29",
+	"address _hashareSpookyLpPair": "0x8BB1Fe7A50082623B372d857b4d07911c786a3e9",
+	"address _daoAddress": "0xcaf6C0FB8Bcb737C2D5D7e5Db615147a26091De1"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+transaction hash	0x8898b8c3f2fa674679c2869db022165378d60a9d0efed0ade6939d6472e0eea4
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HanGenesisRewardPool.(constructor)
+gas	2549024 gas
+transaction cost	2549024 gas 
+hash	0x8898b8c3f2fa674679c2869db022165378d60a9d0efed0ade6939d6472e0eea4
+input	0x608...08bc8
+decoded input	{
+	"address _han": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+	"address _shiba": "0x39523112753956d19A3d6a30E758bd9FF7a8F3C0",
+	"uint256 _poolStartTime": "1642105800"
+}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: HanGenesisRewardPool.(constructor)
+value: 0 wei
+data: 0x608...08bc8
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0xe8d52ab4fcb1fb31eba792a55a594d4c0e2e391360b6fe1e7cce891b6c000b39
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	HanGenesisRewardPool.(constructor)
+gas	2471964 gas
+transaction cost	2471964 gas 
+hash	0xe8d52ab4fcb1fb31eba792a55a594d4c0e2e391360b6fe1e7cce891b6c000b39
+input	0x608...08bc8
+decoded input	{
+	"address _han": "0x0000000000000000000000000000000000000000",
+	"address _shiba": "0x0000000000000000000000000000000000000000",
+	"uint256 _poolStartTime": "0"
+}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: TaxOfficeV2.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed[block: txIndex:]
+from: 0x8E7...86cBF
+to: TShareSwapper.(constructor)
+value: 0 wei
+data: 0x608...91de1
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	TShareSwapper.(constructor)
+gas	2313690 gas
+transaction cost	2313690 gas 
+hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+input	0x608...91de1
+decoded input	{
+	"address _han": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+	"address _hbond": "0xa4b33ec7bE6A82099Ac36a726bAf85A0c2C485C1",
+	"address _hashare": "0xB04479D698780502F726ca663847D77910D898Ec",
+	"address _wftmAddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+	"address _hanSpookyLpPair": "0xF491e7B69E4244ad4002BC14e878a34207E38c29",
+	"address _hashareSpookyLpPair": "0x8BB1Fe7A50082623B372d857b4d07911c786a3e9",
+	"address _daoAddress": "0xcaf6C0FB8Bcb737C2D5D7e5Db615147a26091De1"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+transaction hash	0xd12f056a35728f3c3cf0d53626633595b3b26bf2e4c65f2ef82096bc2c70831f
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	TaxOfficeV2.(constructor)
+gas	2743955 gas
+transaction cost	2743955 gas 
+hash	0xd12f056a35728f3c3cf0d53626633595b3b26bf2e4c65f2ef82096bc2c70831f
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[
+	{
+		"from": "0x2AD03857F33FF1800510b4dC84bf3BdBF66686A1",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0x2AD03857F33FF1800510b4dC84bf3BdBF66686A1",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Treasury.(constructor)
+value: 0 wei
+data: 0x600...00033
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x92f3d16f89e61cf72416d8d720c9ac1350996271fee9ac6e11111dfd1a4b451e
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Treasury.(constructor)
+gas	3812723 gas
+transaction cost	3812723 gas 
+hash	0x92f3d16f89e61cf72416d8d720c9ac1350996271fee9ac6e11111dfd1a4b451e
+input	0x600...00033
+decoded input	{}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: TShareSwapper.(constructor)
+value: 0 wei
+data: 0x608...91de1
+logs: 2
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	TShareSwapper.(constructor)
+gas	2313690 gas
+transaction cost	2313690 gas 
+hash	0x7a41a5210e1f6141bf03c1b2988b704aadf36fabb22cb1c1592f3ef99afb7389
+input	0x608...91de1
+decoded input	{
+	"address _han": "0xEEB5D2461e68284cC96Ac931e2807c1F308aF4aB",
+	"address _hbond": "0xa4b33ec7bE6A82099Ac36a726bAf85A0c2C485C1",
+	"address _hashare": "0xB04479D698780502F726ca663847D77910D898Ec",
+	"address _wftmAddress": "0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83",
+	"address _hanSpookyLpPair": "0xF491e7B69E4244ad4002BC14e878a34207E38c29",
+	"address _hashareSpookyLpPair": "0x8BB1Fe7A50082623B372d857b4d07911c786a3e9",
+	"address _daoAddress": "0xcaf6C0FB8Bcb737C2D5D7e5Db615147a26091De1"
+}
+decoded output	 - 
+logs	[
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x8be0079c531659141344cd1fd0a4f28419497f9722a3daafe3b4186f6b6457e0",
+		"event": "OwnershipTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOwner": "0x0000000000000000000000000000000000000000",
+			"newOwner": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	},
+	{
+		"from": "0xA25BDB34908C71c06b65BE679f9d40Ae90c505Fa",
+		"topic": "0x74da04524d50c64947f5dd5381ef1a4dca5cba8ed1d816243f9e48aa0b5617ed",
+		"event": "OperatorTransferred",
+		"args": {
+			"0": "0x0000000000000000000000000000000000000000",
+			"1": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF",
+			"previousOperator": "0x0000000000000000000000000000000000000000",
+			"newOperator": "0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF"
+		}
+	}
+]
+val	0 wei
+ 
+>
+
+[block: txIndex:]
+from: 0x8E7...86cBF
+to: Masonry.(constructor)
+value: 0 wei
+data: 0x608...00033
+logs: 0
+hash: 
+status	true Transaction mined and execution succeed
+transaction hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+from	0x8E71E11923A4A7dEEF1A14aa06462FcC63E86cBF
+to	Masonry.(constructor)
+gas	1715630 gas
+transaction cost	1715630 gas 
+hash	0x73d1c85f04709c8d05a2cf1c2d9e6f88d8341896cf5bba8616aa696ab09080aa
+input	0x608...00033
+decoded input	{}
+decoded output	 - 
+logs	[]
+val	0 wei
+ 
+>

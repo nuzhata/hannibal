@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "decimals",
+				"outputs": [
+					{
+						"internalType": "uint8",
+						"name": "",
+						"type": "uint8"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IDecimals.sol": "IDecimals"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IDecimals.sol": {
+			"keccak256": "0xf1efbd76467194904fc920d8b7255b4a89ee51d1e1b03879112083c2ad28fd67",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f3c1c8418f5b169ef1d6cb544b482d5441c534252cfb15a72423f90f163b640c",
+				"dweb:/ipfs/QmeKnp9do1RsiM58eUsAsyYeNUfUss5CbDX8gYnSKcUJn1"
+			]
+		}
+	},
+	"version": 1
+}

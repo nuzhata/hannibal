@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/lib/Babylonian.sol": "Babylonian"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/lib/Babylonian.sol": {
+			"keccak256": "0x3ee5a62367071d5ca19baf8b265ebeae8c82c8d8377fa8db50d7b3a088af33b3",
+			"urls": [
+				"bzz-raw://e6c4717a7069a30004eee6d0fb06bc3c85de07f7bf88d0351bfe61cfc0fcaa87",
+				"dweb:/ipfs/QmQThXxHLwBTtZvBaxLuDSo3Zw3Veob9FKedY951T4MtgG"
+			]
+		}
+	},
+	"version": 1
+}

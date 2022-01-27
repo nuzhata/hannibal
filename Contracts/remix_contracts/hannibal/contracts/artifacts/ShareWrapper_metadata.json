@@ -1,0 +1,171 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "account",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "share",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "stake",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/Masonry.sol": "ShareWrapper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x61437cb513a887a1bbad006e7b1c8b414478427d33de47c5600af3c748f108da",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2c3d0973630ed74f2b5ce3944677a885dc70ec32fc83b35f55045a10224da32b",
+				"dweb:/ipfs/QmbefZ5RoEZKNHXCALfh683PnaNYzKPcKMFjyY1DVAgq8A"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol": {
+			"keccak256": "0xc3d946432c0ddbb1f846a0d3985be71299df331b91d06732152117f62f0be2b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4632c341a06ba5c079b51ca5a915efab4e6ab57735b37839b3e8365ff806a43e",
+				"dweb:/ipfs/QmTHT3xHYed2wajEoA5qu7ii2BxLpPhQZHwAhtLK5Z7ANK"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0x51b758a8815ecc9596c66c37d56b1d33883a444631a3f916b9fe65cb863ef7c4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://997ca03557985b3c6f9143a18b6c3a710b3bc1c7f189ee956d305a966ecfb922",
+				"dweb:/ipfs/QmQaD3Wb62F88SHqmpLttvF6wKuPDQep2LLUcKPekeRzvz"
+			]
+		},
+		"@openzeppelin/contracts/utils/math/SafeMath.sol": {
+			"keccak256": "0xa2f576be637946f767aa56601c26d717f48a0aff44f82e46f13807eea1009a21",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://973868f808e88e21a1a0a01d4839314515ee337ad096286c88e41b74dcc11fc2",
+				"dweb:/ipfs/QmfYuZxRfx2J2xdk4EXN7jKg4bUYEMTaYk9BAw9Bqn4o2Y"
+			]
+		},
+		"contracts/Masonry.sol": {
+			"keccak256": "0x1718dacae6a58549e6bc9add48bf3e323f2db9953a40f2a759a5911278a5d2ae",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5de6c0d6e16ac0bf1bb07dd0d78039adf2cb975d9eb5bab542801e83fd7c6487",
+				"dweb:/ipfs/QmSAfT51toMuU2T1kW99HBRgyhZSM8VpdQXKns9oqkwZZV"
+			]
+		},
+		"contracts/interfaces/IBasisAsset.sol": {
+			"keccak256": "0x77c023066227b9544b2aedef7622d8f88a40e41ad6c81bb8bc898372be136d86",
+			"urls": [
+				"bzz-raw://0e81fe818411a443d833bd1a76d0ac53fa792843e0f2c96d3b124257a60293fd",
+				"dweb:/ipfs/QmSS519iSycC5h8KZVzSZHP52FzC3dZrykYSauRwQVwD7T"
+			]
+		},
+		"contracts/interfaces/ITreasury.sol": {
+			"keccak256": "0x144dca8c2ad09426e0ff94819cc47f018a267fb2dcc41a4ac2badd87584d70d2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f60214c8eb869f55fe58bb35023fd12e89ebde1ad4179c0f342e171b337075b9",
+				"dweb:/ipfs/QmZ6Q7u1E38Ps5Zn8di7kYCZbYHbno26M15VChX5fY926n"
+			]
+		},
+		"contracts/utils/ContractGuard.sol": {
+			"keccak256": "0x0d34b67208fa6e104fe48a204db2f3e090bbb1655650af0c38bca1c30a9ea724",
+			"urls": [
+				"bzz-raw://620c528e83be0134e4ce4a771eabcf3b4fde780c2d1615ecefa7ee180f3d6e60",
+				"dweb:/ipfs/QmPaRb3RYLbcTVyky1Mdft8CctGyfnCNLfJAZ9LWShPErh"
+			]
+		}
+	},
+	"version": 1
+}

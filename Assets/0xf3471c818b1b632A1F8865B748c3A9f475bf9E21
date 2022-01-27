@@ -1,0 +1,227 @@
+#
+#  Panoramix v4 Oct 2019 
+#  Decompiled source of fantom:0xf3471c818b1b632A1F8865B748c3A9f475bf9E21
+# 
+#  Let's make the world open source 
+# 
+#
+#  I failed with these: 
+#  - update()
+#  All the rest is below.
+#
+
+def storage:
+  owner is addr at storage 0
+  operatorAddress is addr at storage 1
+  period is uint256 at storage 2
+  startTime is uint256 at storage 3
+  unknownba522458 is uint256 at storage 4
+  unknownb97dd9e2 is uint256 at storage 5
+  unknown0dfe1681Address is addr at storage 6
+  token1Address is addr at storage 7
+  unknownc5700a02 is uint32 at storage 8 offset 160
+  pairAddress is addr at storage 8
+  unknown5909c0d5 is uint256 at storage 9
+  unknown5a3d5493 is uint256 at storage 10
+  unknowna6bb4539 is uint256 at storage 11
+  unknown5e6aaf2c is uint256 at storage 12
+
+def unknown0dfe1681() payable: 
+  return unknown0dfe1681Address
+
+def getPeriod() payable: 
+  return period
+
+def operator() payable: 
+  return operatorAddress
+
+def unknown5909c0d5() payable: 
+  return unknown5909c0d5
+
+def unknown5a3d5493() payable: 
+  return unknown5a3d5493
+
+def unknown5e6aaf2c() payable: 
+  return unknown5e6aaf2c
+
+def owner() payable: 
+  return owner
+
+def unknowna6bb4539() payable: 
+  return unknowna6bb4539
+
+def pair() payable: 
+  return pairAddress
+
+def unknownb97dd9e2() payable: 
+  return unknownb97dd9e2
+
+def unknownba522458() payable: 
+  return unknownba522458
+
+def unknownc5700a02() payable: 
+  return unknownc5700a02
+
+def getStartTime() payable: 
+  return startTime
+
+def token1() payable: 
+  return token1Address
+
+#
+#  Regular functions
+#
+
+def _fallback() payable: # default function
+  revert
+
+def unknown4456eda2() payable: 
+  return (caller == operatorAddress)
+
+def unknownc5967c26() payable: 
+  if period + unknownba522458 < unknownba522458:
+      revert with 0, 'SafeMath: addition overflow'
+  return (period + unknownba522458)
+
+def renounceOwnership() payable: 
+  if owner != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  log OwnershipTransferred(
+        address previousOwner=owner,
+        address newOwner=0)
+  owner = 0
+
+def unknown0ceb2cef(uint256 _param1) payable: 
+  require calldata.size - 4 >= 32
+  if operatorAddress != caller:
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 
+                  32,
+                  36,
+                  0x726f70657261746f723a2063616c6c6572206973206e6f7420746865206f70657261746f,
+                  mem[200 len 28]
+  unknownb97dd9e2 = _param1
+
+def setPeriod(uint256 _newPeriod) payable: 
+  require calldata.size - 4 >= 32
+  if operatorAddress != caller:
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 
+                  32,
+                  36,
+                  0x726f70657261746f723a2063616c6c6572206973206e6f7420746865206f70657261746f,
+                  mem[200 len 28]
+  if _newPeriod < 3600:
+      revert with 0, '_period: out of range'
+  if _newPeriod > 48 * 24 * 3600:
+      revert with 0, '_period: out of range'
+  period = _newPeriod
+
+def transferOwnership(address _newOwner) payable: 
+  require calldata.size - 4 >= 32
+  if owner != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  if not _newOwner:
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 
+                  32,
+                  38,
+                  0xfe4f776e61626c653a206e6577206f776e657220697320746865207a65726f20616464726573,
+                  mem[202 len 26]
+  log OwnershipTransferred(
+        address previousOwner=owner,
+        address newOwner=_newOwner)
+  owner = _newOwner
+
+def transferOperator(address _newOperator) payable: 
+  require calldata.size - 4 >= 32
+  if owner != caller:
+      revert with 0, 'Ownable: caller is not the owner'
+  if not _newOperator:
+      revert with 0x8c379a000000000000000000000000000000000000000000000000000000000, 
+                  32,
+                  45,
+                  0x686f70657261746f723a207a65726f206164647265737320676976656e20666f72206e6577206f70657261746f,
+                  mem[209 len 19]
+  log OperatorTransferred(
+        address previousOperator=0,
+        address newOperator=_newOperator)
+  operatorAddress = _newOperator
+
+def unknown3ddac953(addr _param1, uint256 _param2) payable: 
+  require calldata.size - 4 >= 64
+  if unknown0dfe1681Address == _param1:
+      if not _param2:
+          return 0
+      require _param2
+      if unknowna6bb4539 * _param2 / _param2 != unknowna6bb4539:
+          revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[263 len 29]
+      return (Mask(32, 112, unknowna6bb4539 * _param2) >> 112)
+  if token1Address != _param1:
+      revert with 0, 'Oracle: INVALID_TOKEN'
+  if not _param2:
+      return 0
+  require _param2
+  if unknown5e6aaf2c * _param2 / _param2 != unknown5e6aaf2c:
+      revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[263 len 29]
+  return (Mask(32, 112, unknown5e6aaf2c * _param2) >> 112)
+
+def unknown6808a128(addr _param1, uint256 _param2) payable: 
+  require calldata.size - 4 >= 64
+  require ext_code.size(pairAddress)
+  static call pairAddress.0x5909c0d5 with:
+          gas gas_remaining wei
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require return_data.size >= 32
+  require ext_code.size(pairAddress)
+  static call pairAddress.0x5a3d5493 with:
+          gas gas_remaining wei
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require return_data.size >= 32
+  require ext_code.size(pairAddress)
+  static call pairAddress.getReserves() with:
+          gas gas_remaining wei
+  if not ext_call.success:
+      revert with ext_call.return_data[0 len return_data.size]
+  require return_data.size >= 96
+  if uint32(block.timestamp) == ext_call.return_data[92 len 4]:
+      if unknown0dfe1681Address == _param1:
+          require uint32(uint32(block.timestamp) - unknownc5700a02)
+          if not _param2:
+              return 0
+          require _param2
+          if Mask(224, 0, ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2 / _param2 != Mask(224, 0, ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)):
+              revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[263 len 29]
+          return (Mask(32, 112, Mask(224, 0, ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2) >> 112)
+      if token1Address != _param1:
+          return 0
+      require uint32(uint32(block.timestamp) - unknownc5700a02)
+      if not _param2:
+          return 0
+      require _param2
+      if Mask(224, 0, ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2 / _param2 != Mask(224, 0, ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)):
+          revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[263 len 29]
+      return (Mask(32, 112, Mask(224, 0, ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2) >> 112)
+  if Mask(112, 0, ext_call.return_data <= 0:
+      revert with 0, 'FixedPoint: DIV_BY_ZERO'
+  require Mask(112, 0, ext_call.return_data[0])
+  if Mask(112, 0, ext_call.return_data <= 0:
+      revert with 0, 'FixedPoint: DIV_BY_ZERO'
+  require Mask(112, 0, ext_call.return_data[32])
+  if unknown0dfe1681Address == _param1:
+      require uint32(uint32(block.timestamp) - unknownc5700a02)
+      if not _param2:
+          return 0
+      require _param2
+      if Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2 / _param2 != Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)):
+          revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[391 len 29]
+      return (Mask(32, 112, Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5909c0d5 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2) >> 112)
+  if token1Address != _param1:
+      return 0
+  require uint32(uint32(block.timestamp) - unknownc5700a02)
+  if not _param2:
+      return 0
+  require _param2
+  if Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2 / _param2 != Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)):
+      revert with 0, 32, 35, 0x724669786564506f696e743a204d554c5449504c49434154494f4e5f4f564552464c4f, mem[391 len 29]
+  return (Mask(32, 112, Mask(224, 0, (Mask(224, 0, Mask(112, 0, ext_call.return_data << 112 / Mask(112, 0, ext_call.return_data * uint32(uint32(block.timestamp) - ext_call.return_data)) + ext_call.return_dataunknown5a3d5493 / uint32(uint32(block.timestamp) - unknownc5700a02)) * _param2) >> 112)
+

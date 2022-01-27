@@ -1,0 +1,494 @@
+{
+	"compiler": {
+		"version": "0.8.0+commit.c7dfd78e"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_han",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_hbond",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_hashare",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_wftmAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_hanSpookyLpPair",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_hashareSpookyLpPair",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_daoAddress",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOperator",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOperator",
+						"type": "address"
+					}
+				],
+				"name": "OperatorTransferred",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "previousOwner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "OwnershipTransferred",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "sender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "hbondAmount",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "hashareAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "TBondSwapPerformed",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "daoAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_hbondAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "estimateAmountOfTShare",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_user",
+						"type": "address"
+					}
+				],
+				"name": "getTBondBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTShareAmountPerTomb",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTShareBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTSharePrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getTombPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "han",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hanSpookyLpPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hashare",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hashareSpookyLpPair",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "hbond",
+				"outputs": [
+					{
+						"internalType": "contract IERC20",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "isOperator",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "operator",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "renounceOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_hbondAmount",
+						"type": "uint256"
+					}
+				],
+				"name": "swapTBondToTShare",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOperator_",
+						"type": "address"
+					}
+				],
+				"name": "transferOperator",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "newOwner",
+						"type": "address"
+					}
+				],
+				"name": "transferOwnership",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "wftmAddress",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawTShare",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {
+				"owner()": {
+					"details": "Returns the address of the current owner."
+				},
+				"renounceOwnership()": {
+					"details": "Leaves the contract without owner. It will not be possible to call `onlyOwner` functions anymore. Can only be called by the current owner. NOTE: Renouncing ownership will leave the contract without an owner, thereby removing any functionality that is only available to the owner."
+				},
+				"transferOwnership(address)": {
+					"details": "Transfers ownership of the contract to a new account (`newOwner`). Can only be called by the current owner."
+				}
+			},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HaShareSwapper.sol": "TShareSwapper"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/Address.sol": {
+			"keccak256": "0x69bb462ff1451046787ec7e6356031ed77d167cdb9140080ec5a02d5d8275e78",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://d798b35bdde9b007971661f4dbce7ec129254028183e9e152a5733972c6aedd7",
+				"dweb:/ipfs/QmewLki2p32RG1qT87cNHKHKvDk2uaM4SCzCDHqKWM1mWG"
+			]
+		},
+		"contracts/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"contracts/HaShareSwapper.sol": {
+			"keccak256": "0xfcf6537fec7221480c0f1bc3099ef03b32262427306a05c7d1ed19b69f119839",
+			"urls": [
+				"bzz-raw://0e533c10b39b37d6e33ee293b1d10a25ac293ad28c60a83b81b025b9cd3c4c31",
+				"dweb:/ipfs/Qmd4YxhpKfqmmtgchZ6ZwDibLJmdg8EWRfaYUjmtGt2gGK"
+			]
+		},
+		"contracts/IERC20.sol": {
+			"keccak256": "0x047190449e5cf6c483f2fd1035ce40e370c45ef3e7cdd85e6cdd0b09151299be",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://818381f722b4746629821e193288a99fa84d3426aad8bb24eaf91f437ad100c4",
+				"dweb:/ipfs/QmYzfHwqtcktcK8dr3qHBCjdt1EYniNxQwgEHQcG34dSgT"
+			]
+		},
+		"contracts/Operator.sol": {
+			"keccak256": "0x023dd6a3664732588e2c3a8514ec299d8026179c3cf24d5a89986ce3977cd883",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6c535b8c798d5eb641f1f62c51c5f9180c4fe90709411cb14d0ff402462ec504",
+				"dweb:/ipfs/Qmd4g3oVa6wwUxmepon3FBkHMwQFmUAE2W5kLMbD5wQjT1"
+			]
+		},
+		"contracts/Ownable.sol": {
+			"keccak256": "0xb7e1a08f15c941b2b460a2b70e367f3a59a99db411985a169bd4cc6a4be514cd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://010561cb9c96adc9d99515f326aab9b4997650a4d57c49138034c0d196c4b261",
+				"dweb:/ipfs/QmcPEfS2sG3QnR56Tmr7BjbZdJEvQaD5GNmFJgyRF4Cw6V"
+			]
+		},
+		"contracts/SafeERC20.sol": {
+			"keccak256": "0x3878f9cdc7c08627c755bb6075acd331438423b1055fcf113d2c77b09ec57eed",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://649b1656537e72b0bc4118b82b846dfb2bd048058afbb35b1b686e33f7066fba",
+				"dweb:/ipfs/QmTWLFQu9eTTe7pcJ8P2RxgwFb7xJguAYW2TUG6yEmXdkj"
+			]
+		},
+		"contracts/SafeMath.sol": {
+			"keccak256": "0x2750132cccbdddf8f23e7c0477b456c31e1b93195d53b65c2ad0258b615564cc",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://19d186ce8d8e9195e48a8d78465614841a1b64af192ede5c0a4108f9571e3371",
+				"dweb:/ipfs/Qmf2Q8Qq5ZhAU2hzxV6QD1bqWZiTHinhoRybSpxqwU77cM"
+			]
+		}
+	},
+	"version": 1
+}
